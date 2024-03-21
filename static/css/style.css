@@ -66,13 +66,15 @@ body {
 
 .masthead {
     margin-top: 10px;
-    overflow: hidden;
+    margin-bottom: 100px;
+    /*overflow: hidden;
+    display: inline-block;*/
     position: relative;
-    display: inline-block;
+    display: flex;
     height: 33vh;
     width: 100%;
 }
-
+/* post html original lms*/
 .masthead-text {
     background-color: #445261;
     color: white;
@@ -136,18 +138,18 @@ body {
 
 .btn-signup,
 .btn-edit {
-    background-color: #be268b;
+    background-color: #4f3045;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
-    color: #23BBBB;
+    color: #5f35c2;
 }
 
 .link {
-    color: #23BBBB;
+    color: #3e064b;
     text-decoration: none;
 }
 
