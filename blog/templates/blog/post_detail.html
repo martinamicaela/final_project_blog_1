@@ -1,5 +1,8 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %} 
 {% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
 
 <div class="masthead">
     <div class="container">
@@ -29,6 +32,113 @@
             </div>
         </div>
     </div>
+
+      <!-- Displaying count of purchases -->
+  <div class="row">
+    <div class="col-12">
+        {% for purchase in purchases %}
+        <p class="font-weight-bold">
+            {{purchase.product_name}}: 
+            <span class="font-weight-normal">
+                {{purchase.product_name}}
+                
+            </span> Seller:
+          </p>
+        <div>
+            {{purchase.store_name}}: <pan>{{purchase.price}}</pan>
+            <p>{{purchase.product_link}}</p>
+            
+        </div>
+    </p>
+    <div >
+        {{purchase.created_on}}
+    </div>
+    {% endfor %}
+        </div>
+       <div class="col-12">
+     <hr>
+  </div>
+</div>  
+    
+  <!-- Displaying count of style
+  <div class="row">
+    <div class="col-12">
+        {% for style in styles %}
+        
+            <h3> {{style.name}}</h3>
+    {% endfor %}
+        </div>
+       <div class="col-12">
+     <hr>
+  </div>
+</div>   -->
+
+    <!-- Displaying count of comments -->
+  <div class="row">
+    <div class="col-12">
+      <strong class="text-secondary">
+        <i class="far fa-comments"></i> {{ reviews_count }}
+      </strong>
+    </div>
+    <div class="col-12">
+      <hr>
+    </div>
+  </div>
+
+<!-- Displaying Comments -->
+<div class="row">
+    <div class="col-md-8 card mb-4  mt-3 ">
+      <h3>Reviews:</h3>
+      <div class="card-body">
+        <!-- We want a for loop inside the empty control tags
+          to iterate through each comment in comments -->
+        {% for review in reviews %}
+        <div class="p-2 comments
+          {% if not review.approved and review.author_review == user %}
+          faded{% elif not review.approved %} d-none{% endif %}">
+          <p class="font-weight-bold">
+            {{ review.author_review }}
+            <span class="font-weight-normal">
+              {{ review.date_review }}
+            </span> wrote:
+          </p>
+          <div id="comment{{ review.id }}">
+            {{ review.body| safe | linebreaks }}
+          </div>
+          <p class="float-start">
+            {% for counter in "x"|rjust:review.rating %}
+            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            {% endfor %}
+          {% if not review.approved and review.author_review == user %}
+          <p class="approval">
+            This comment is awaiting approval
+          </p>
+          {% endif %}
+        </div>
+        <!-- Our for loop ends here -->
+        {% endfor %}
+      </div>
+    </div>
+    <!-- Creating New Reviews -->
+    <div class="col-md-4 card mb-4 mt-3">
+        <div class="card-body">
+          {% if user.is_authenticated %}
+          <h3>Leave a review:</h3>
+          <p>Posting as: {{ user.username }}</p>
+          <form id="commentForm" method="post"
+            style="margin-top: 1.3em;">
+            {{ review_form | crispy }}
+            {% csrf_token %}
+            <button id="submitButton" type="submit"
+              class="btn btn-signup btn-lg">Submit</button>
+          </form>
+          {% else %}
+          <p>Log in to leave a review</p>
+          {% endif %}
+        </div>
+      </div>
+  </div>
 </div>
 
+ 
 {% endblock content %}
