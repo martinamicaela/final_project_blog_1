@@ -43,15 +43,12 @@
     <div class="col-12">
         {% for purchase in purchases %}
         <p class="font-weight-bold">
-            {{purchase.product_name}}: 
-            <span class="font-weight-normal">
-                {{purchase.product_name}}
-                
-            </span> Seller:
+            {{purchase.product_name}}: <span>£ {{purchase.price}}</span>
           </p>
         <div>
-            {{purchase.store_name}}: <pan>{{purchase.price}}</pan>
-            <p>{{purchase.product_link}}</p>
+          In love with it? you can find here:
+          <a href="{{purchase.product_link}}"> {{purchase.store_name}}</a>
+            
             
         </div>
     </p>
