@@ -10,17 +10,6 @@ class PostList(generic.ListView):
     template_name = "blog/index.html"
     paginate_by = 3
 
-# def style_detail(request):
-#           queryset = Style.objects.all()
-#           purchase = get_object_or_404(queryset)
-
-#           styles=post.styles.all()
-#           return render(
-#             request,
-#             "blog/post_detail.html",
-#             {"styles":styles
-#             },
-#     )
 
 def post_detail(request, slug):
     """

@@ -12,11 +12,13 @@
                 <h1 class="post-title">{{ post.title }}</h1>
                 <!-- Post author goes before the | the post's created date goes after -->
                 <p class="post-subtitle">{{ post.author }} | {{ post.date_posted}}</p>
+                
             </div>
-            <div class="d-none d-md-block col-md-6">
+            <div class="col-12 col-md-6 ratio-21x9">
                 <img src="{{ post.image }}" class="scale" alt="image">
             </div>
         </div>
+        
     </div>
 </div>
 
@@ -60,18 +62,6 @@
   </div>
 </div>  
     
-  <!-- Displaying count of style
-  <div class="row">
-    <div class="col-12">
-        {% for style in styles %}
-        
-            <h3> {{style.name}}</h3>
-    {% endfor %}
-        </div>
-       <div class="col-12">
-     <hr>
-  </div>
-</div>   -->
 
     <!-- Displaying count of comments -->
   <div class="row">
