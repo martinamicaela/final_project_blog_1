@@ -27,6 +27,13 @@ for (let button of editButtons) {
     reviewForm.setAttribute("action", `edit_review/${reviewId}`);
   });
 }
+for (let button of deleteButtons) {
+  button.addEventListener("click", (e) => {
+    let reviewId = e.target.getAttribute("review_id");
+    deleteConfirm.href = `delete_review/${reviewId}`;
+    deleteModal.show();
+  });
+}
 
 /**
 * Initializes deletion functionality for the provided delete buttons.
@@ -38,10 +45,3 @@ for (let button of editButtons) {
 * - Displays a confirmation modal (`deleteModal`) to prompt 
 * the user for confirmation before deletion.
 */
-for (let button of deleteButtons) {
-    button.addEventListener("click", (e) => {
-      let reviewId = e.target.getAttribute("review_id");
-      deleteConfirm.href = `delete_review/${reviewId}`;
-      deleteModal.show();
-    });
-  }
