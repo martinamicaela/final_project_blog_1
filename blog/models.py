@@ -46,7 +46,7 @@ class Review (models.Model):
         on_delete=models.CASCADE, related_name="reviewer")
     body = models.TextField(max_length=1000)
     date_review = models.DateTimeField(auto_now_add=True)
-    rating=models.IntegerField(choices=RATE, blank=True)
+    rating=models.IntegerField(choices=RATE, default=5)
     approved = models.BooleanField(default=False)
     
     def __str__(self):
