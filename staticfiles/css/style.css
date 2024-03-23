@@ -34,6 +34,8 @@ body {
 .card {
     border: none;
     background-color: transparent;
+    margin-top: 20px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
 }
 
 .image-container {
@@ -54,8 +56,8 @@ body {
 }
 
 .scale {
-    width: 100%;
-    height: auto;
+    width: 80%;
+    height: 80%;
 }
 
 .author {
@@ -65,40 +67,45 @@ body {
 }
 
 .masthead {
-    margin-top: 10px;
-    margin-bottom: 100px;
-    /*overflow: hidden;
-    display: inline-block;*/
-    position: relative;
+    /* margin-top: 10px;
+    margin-bottom: 100px; */
+    /* overflow: hidden; */
+    /* display: inline-block;*/ 
+    /* position: relative;
     display: flex;
-    height: 33vh;
-    width: 100%;
-}
+    height: 60vh;
+    width: 80%; */
+} 
+
 /* post html original lms*/
 .masthead-text {
-    background-color: #445261;
+    /* background-color: #445261; */
     color: white;
     position: relative;
 }
 
-.masthead-image {
+/* .masthead-image {
     position: relative;
     overflow: hidden;
-}
+} */
 
-.masthead-image:after {
+/* .masthead-image:after {
     content: "";
-    position: absolute;
+    position: relative;
     top: 0;
     right: 90%;
     height: 100%;
-    width: 150%;
+    width: 100%;
     background: #445261;
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
     z-index: 100;
-}
+} */
+
+/* #image-detail{
+
+} */
 
 .post-link {
     text-decoration: none;

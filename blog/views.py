@@ -1,7 +1,8 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic
 from django.contrib import messages
-from .models import Post, Purchase, Style,Review
+from django.http import HttpResponseRedirect
+from .models import Post, Purchase, Style, Review
 from .forms import ReviewForm
 
 # Create your views here.
@@ -61,3 +62,24 @@ def post_detail(request, slug):
         },
     )
 
+def review_edit(request, slug, review_id):
+    """
+    view to edit comments
+    """
+    if request.method == "POST":
+
+        queryset = Post.objects.filter(status=1)
+        post = get_object_or_404(queryset, slug=slug)
+        review = get_object_or_404(Review, pk=review_id)
+        review_form = ReviewForm(data=request.POST, instance=review)
+
+        if review_form.is_valid() and review.author_review == request.user:
+            review = review_form.save(commit=False)
+            review.post = post
+            review.approved = False
+            review.save()
+            messages.add_message(request, messages.SUCCESS, 'Review Updated!')
+        else:
+            messages.add_message(request, messages.ERROR, 'Error updating review!')
+
+    return HttpResponseRedirect(reverse('post_detail', args=[slug]))

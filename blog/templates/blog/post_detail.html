@@ -92,7 +92,7 @@
               {{ review.date_review }}
             </span> wrote:
           </p>
-          <div id="comment{{ review.id }}">
+          <div id="review{{ review.id }}">
             {{ review.body| safe | linebreaks }}
           </div>
           <p class="float-start">
@@ -101,9 +101,15 @@
             {% endfor %}
           {% if not review.approved and review.author_review == user %}
           <p class="approval">
-            This comment is awaiting approval
+            This review is awaiting approval
           </p>
           {% endif %}
+
+          {% if user.is_authenticated and review.author_review == user %}
+          <button class="btn btn-edit"
+            review_id="{{ review.id }}">Edit</button>
+          {% endif %}
+
         </div>
         <!-- Our for loop ends here -->
         {% endfor %}
@@ -132,3 +138,6 @@
 
  
 {% endblock content %}
+{% block extras %}
+<script src="{% static 'js/reviews.js' %}"></script>
+{% endblock %}
