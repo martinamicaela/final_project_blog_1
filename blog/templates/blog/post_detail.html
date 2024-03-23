@@ -31,14 +31,14 @@
             <div class="card-body">
               <!-- The post content goes inside the card-text. card-body-->
                 <!-- Use the | safe filter inside the template tags -->
-                <p class=" .excerpt-font">
+                <p class="excerpt-font">
                     {{ post.content | safe }}
                 </p>
             </div>
         </div>
     </div>
 
-      <!-- Displaying count of purchases -->
+      <!-- Displaying of purchases -->
   <div class="row">
     <div class="col-12">
         {% for purchase in purchases %}
@@ -83,7 +83,7 @@
         <!-- We want a for loop inside the empty control tags
           to iterate through each comment in comments -->
         {% for review in reviews %}
-        <div class="p-2 comments
+        <div class="p-2 reviews
           {% if not review.approved and review.author_review == user %}
           faded{% elif not review.approved %} d-none{% endif %}">
           <p class="font-weight-bold">
@@ -106,6 +106,8 @@
           {% endif %}
 
           {% if user.is_authenticated and review.author_review == user %}
+          <button class="btn btn-delete"
+            review_id="{{ review.id }}">Delete</button>
           <button class="btn btn-edit"
             review_id="{{ review.id }}">Edit</button>
           {% endif %}
@@ -121,7 +123,7 @@
           {% if user.is_authenticated %}
           <h3>Leave a review:</h3>
           <p>Posting as: {{ user.username }}</p>
-          <form id="commentForm" method="post"
+          <form id="reviewForm" method="post"
             style="margin-top: 1.3em;">
             {{ review_form | crispy }}
             {% csrf_token %}
@@ -136,6 +138,30 @@
   </div>
 </div>
 
+<!-- Delete confirmation modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1"
+  aria-labelledby="deleteModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"
+          id="deleteModalLabel">Delete review?</h5>
+        <button type="button" class="btn-close"
+          data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Are you sure you want to delete your review?
+        This action cannot be undone.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"
+          data-bs-dismiss="modal">Close</button>
+        <a id="deleteConfirm" href="#" class="btn
+          btn-danger">Delete</a>
+      </div>
+    </div>
+  </div>
+</div>
  
 {% endblock content %}
 {% block extras %}

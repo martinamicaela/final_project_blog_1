@@ -83,3 +83,20 @@ def review_edit(request, slug, review_id):
             messages.add_message(request, messages.ERROR, 'Error updating review!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+def review_delete(request, slug, review_id):
+    """
+    view to delete review
+    """
+    queryset = Post.objects.filter(status=1)
+    post = get_object_or_404(queryset, slug=slug)
+    review = get_object_or_404(Review, pk=review_id)
+
+    if review.author_review == request.user:
+        review.delete()
+        messages.add_message(request, messages.SUCCESS, 'Review deleted!')
+    else:
+        messages.add_message(request, messages.ERROR, 'You can only delete your own reviews!')
+
+    return HttpResponseRedirect(reverse('post_detail', args=[slug]))
