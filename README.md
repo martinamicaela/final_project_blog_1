@@ -1,110 +1,328 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1>CAMPFIRE CAMPUS README.MD</h1>
 
-Welcome martinamicaela frutos,
+<h2>Introduction</h2>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Campus Campfire is a site for college students who whan to connect, create events and leave their review on these events. As well students can select if they want to attend to an event and rate it onece it takes place.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Landing page for first time users
 
-## Gitpod Reminders
+The landing page allows users to see a display with all the upcommimg events ordered in chronologically way, being the closest one, the first appearing on the top of the page.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Besides, right at the top the users can see the logo of the page in bright blue with a navbar under it that contains the main sections of the site: Home, Register and Login. Alonside with the navbar, on the opposte side of the page the user can find the footer with the names of the developers who worked together on this project. 
 
-`python3 -m http.server`
+<strong>Landing page for first time users</strong>
 
-A blue button should appear to click: _Make Public_,
+addd 
 
-Another blue button should appear to click: _Open Browser_.
+<img src="imge urls goes here" alt="home page landing page first time">
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<strong>Home page across multiple devices</strong>
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+<img src="image url goes here" alt="Options page across different devices">
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<br>
 
-To log into the Heroku toolbelt CLI:
+## Home page (Site Logo)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The first element that the user sees when visiting site, is the logo: Campfire Campus in big, bright blue font. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- User experience in the Logo section: 
 
-------
+  - The selection of size, colour and type of font, 
+ helps the user to identify quickly the name of the site.
 
-## Release History
+  - The name of the site "Campfire Campus" indicates clearly that this is a website related with the academic world. In addition, the name indicates that it is a place for socialising and students are welcomed. 
+  
+  - Thanks to the Logo the user would feel comfortable and with a positive attitude even before checking the rest of the page. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+ <strong>Home page Logo section</strong>
 
-**September 20 2023:** Update Python version to 3.9.17.
+<img src="./ReadmeFiles/ReadmeImages/logo.png" alt="Home page Logo section">  
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Home page (Events) 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The Home page focuses mainly on the display of the events, as we mentioned before the events appeared ordered in time. Each event is enclosed in a black square to differentiate it from the rest of events. The main features that can be highlighted are:
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- The name of the event is as well a clickable button for the user. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- Under the event name, the user can see the location, the date, and the creator of the event each one with a descriptive icon.  
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- On the top right corner, the user can see the number of available spots and the number of participants attending with icon next to it. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Finally, on the bottom right corner there is a clickable button for those students who want to register.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- User experience in the events section: 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  - The selection of size, colour and type of font, 
+ helps the user to identify quickly the name of the event and the button for registering.
+ 
+  - The icons give important visual information about the event (location, date, author, number of participants) and help the user to navigate through the information provided.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+  -The colour animation on the attending icon gives 
+  
+   - The clickable button is easy  to identify, as it stands alone on the right corner, besides it gives straight and intuitive access to the new user who wants to register for an upcoming event.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<strong>Home page Events section</strong>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<img src="imge urls goes here" alt="Home page Events section">
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+## Home page (Navbar and foooter) 
 
-## FAQ about the uptime script
+Apart from the events, section the Home page also provides the user with a useful navbar and a informative footer. The navbar is divided into three main areas of interest; Home, Register and Login and the footer proportionate information of interest about the developers that collaborated on this project. The main features that can be highlithed are:
 
-**Why have you added this script?**
+- The clickable sections in both, the navbar and the footer 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- The colour animation when the user hovers over the clickable parts.
 
-**How will this affect me?**
+- The change in the cursor icon when the user hovers over the clickable parts.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- User experience in the navbar and footer section: 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+  - The selection of size, colour and type of font, 
+ helps the user to identify quickly the different sections that can be found on the navbar.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+  - The colour transition animation in the navbar and the footer, as well as the change in the cursor icon, both give clear indications about the clickable property of the elements in these sections. Besides, they produce an eye-catching effect on the user when these elements are hoovered over, creating the need for clicking and a sense of mystery.
 
-**So….?**
+  - The Git hub cat icon in the footer,  gives important visual information about the names, as it makes explicit their contribution as developers in the project. 
+  
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<strong>Home page Events section</strong>
 
-**Can I opt out?**
+<img src="./ReadmeFiles/ReadmeImages/navbar.png" alt="Home page Navbar section">
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+<br>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+<img src="./ReadmeFiles/ReadmeImages/footer.png" alt="Home page Footer section">
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+## Authentication
+
+### Registration
+
+We have a registration page built using the default django user registration form, we have a custom view to display messages back to the user to feedback when the form is incorrect but as the default view isn't very customizable it displays mid-form. A fully bespoke solution would be needed next project
+
+<div align="center">
+  <img src="./ReadmeFiles/ReadmeImages/registration.png">
+</div>
+
+### login
+
+We have a simple frictionless login page so users can log in quickly, it will feedback to the user if there are errors. a future feature would be password recovery via email
+
+<div align="center">
+  <img src="./ReadmeFiles/ReadmeImages/login.png">
+</div>
+
+## Design Choices
+
+### Fonts 
+
+IntroRust was chosen as a more interesting font that would give character to the page. It was sourced from [here](https://www.fontspring.com/fonts/fontfabric/intro-rust-free?utm_source=fontsquirrel.com&utm_medium=download_link&utm_campaign=intro-rust#firstfreeproduct)
+
+We selected the font style Poppins 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'. It's is sans serif, so very clear and easy to read. it's popularity on the web gives it instant recognition as well'
+
+
+We selected more plain and simple design with professional colours but a big, vibrant pop of pink as an accent. We derived our colours from [coolors](https://coolors.co/012765-d30cd5-003fa5-010100-f8fff4)
+
+<div align="center">
+  <img src="./ReadmeFiles/ReadmeImages/coolors.png">
+</div>
+
+### Wire Frames
+
+<strong>The wireframes were constructed using Balsamiq in a group call to get feedback on all design choices. This was so front-end and back-end could be aligned even from the early stages to think of any pitfalls that could occur<br></strong>
+
+You can view the wireframes [here](./ReadmeFiles/Wireframes/CampusCampfire.pdf)
+
+<div align="center">
+  <img src="./ReadmeFiles/ReadmeImages/wireframe.png">
+</div>
+
+### Database
+
+We tried to plan out our models before had to avoid having to do migrations mid-project. we tried to work out the field types, one-to-many, PK or FK etc. 
+
+Here is an image of our ERD:
+<div align="center">
+  <img src="./ReadmeFiles/ReadmeImages/ERD.png">
+</div>
+
+## User Stories, features and bugs
+
+<table>
+  <tr>
+    <th>User Story</th>
+    <th>Features</th>
+    <th>Bugs / Issues - tested across viewports of all devices using Google Dev Tools</th>
+  </tr>
+   <tr>
+    <td>As a user I want to know the name of the website so that I can share it with people. </td>
+    <td>Title of the app displayed on the header with an attractive font style.</td>
+    <td>The title sometimes does not collapse properly.</td>
+   
+    
+  </tr>
+  <tr>
+    <td>As a user I want to be able to create an account so I can have my own user profile.</td>
+    <td>Create own account.<br>Log into profile.</td>
+    <td>Error message displayed in the middle.</td>
+  
+  </tr>
+   <tr>
+    <td>As a student I can join events so that I can foster growth in my interests or studies</td>
+    <td>Events page with all events displayed.<br>Organisers know who is attending.</td>
+    <td>On event detail page attending button can't see student status.</td>
+  <tr>
+    <td>As a user I can update my profile so that other users can learn more about me and i see more related content</td>
+    <td>Display name.<br>Display bio.</td>
+    <td>Does not have a list of future events to be attended.<br>Because of the way that the user is prompted to create a student profile, the view function that is triggered will always take them on to the user events page rather than wherever they had come from. </td>
+  </tr>
+  <tr>
+    <td>As a site owner I can collect feedback on events so that I can see which events are successful and popular and which arent.</td>
+    <td>Rate events.<br>Comments system by attendees.</td>
+    <td>None deteced.</td>
+    
+  </tr>
+  <tr>
+    <td>As a Organiser I can create events so that students can attend them.</td>
+    <td>Specify date, time, location, course or interest, and max. participants.<br>List of students attending.<br>Add an event picture.</td>
+    <td>List of students when event is expanded not.</td>
+    
+  </tr>
+  <tr>
+    <td>As a user, I want the site to be easily navigable.</td>
+    <td>Different features of site are clearly identifiable</td>
+    <td>None detected</td>
+    
+  </tr>
+  <tr>
+    <td>As a user, I want to be able to choose an answer from a pre-populated list.</td>
+    <td>List of answers to be selected</td>
+    <td>None detected</td>
+    
+  </tr>
+  <tr>
+    <td>As a user, I want to receive feedback on the answers.</td>
+    <td>Clear signal of correct / incorrect answer</td>
+    <td>None detected</td>
+    
+  </tr>
+  <tr>
+    <td>As a user, I want the site to be visually appealing.</td>
+    <td> Select complementary colour scheme. <br>
+    Different elements/features delineated.</td>
+    <td>None detected</td>
+    
+  </tr>
+  </table>
+
+<br>
+
+
+### User Stories and Features (to be implelemented next Sprint) 
+
+
+  <table>
+  <tr>
+    <th>User Story</th>
+    <th>Features</th>
+    <th>Bugs / Issues</th>
+  </tr>
+
+
+
+  <tr>
+    <td>As a student I want to able to search filter events so that I can attend events of my interest.</td>
+    <td>Filter by category, words or interests.</td>
+    <td>N/A</td>
+  </tr>
+  
+  <tr>
+    <td>As a Student I can get notified of upcoming events so that I am less likely to miss or forget the event.</td>
+    <td>Get notifications from upcoming events.</td>
+    <td>N/A</td>
+  </tr>
+  
+
+  </table>
+
+### Won't haves
+
+  <table>
+  <tr>
+    <th>User Story</th>
+    <th>Features</th>
+    <th>Bugs / Issues</th>
+  </tr>
+  <tr>
+    <td>As a user I want to be able to follow other students.</td>
+    <td>Follow option.</td>
+    <td>N/A</td>
+  </tr>
+
+
+## Fixed Bugs / Issues
+<br>
+<table>
+  <tr>
+    <th>Bug/Issue</th>
+    <th>Image</th>
+    <th>Resolution</th>
+  </tr>
+  <tr>
+  <td>"Select type" option overflows to below options box on smaller devices</td>
+    <td><img src="assets/images/readMeImages/bugs/fixed/questionsoverflow.png" alt="Image showing box obscuring the logo on larger devices"></td>
+    
+  <td>We added media queries to ensure effective responsiveness</td>
+  </tr>
+  </table>
+
+## Unfixed Bugs / Issues
+<table>
+  <tr>
+    <th>Bug/Issue</th>
+    <th>Image</th>
+    <th>Resolution</th>
+  </tr>
+  <tr>
+  <td>On large devices the "Enter name" box obscures the brand logo and feels like a pop-up rather than an integrated element of the UX package</td>
+    <td><img src="assets/images/readMeImages/amiresponsive/loginscreenpng.png" alt="Image showing box obscuring the logo on larger devices"></td>
+    
+  <td>Unfortunately we ran out of time to fix this. We would in future sprints change from an in-browser alert box to a html modal box, that would be styled and centred on the screen etc as part of a user management system.</td>
+  </tr>
+</table>
+
+
+### Validator Testing 
+
+For HTML validation https://validator.w3.org/
+
+For CSS validation  https://jigsaw.w3.org/css-validator/
+
+## Deployment
+
+Site successfully deployed on [heroku](https://campus-campfire-d6ae0237c555.herokuapp.com/)
+
+## Credits 
+
+[Coolors](https://coolors.co/012765-d30cd5-003fa5-010100-f8fff4) was used for colour pallette
+
+[Bootstrap](https://getbootstrap.com/)
+
+[fontawesome](https://fontawesome.com/)
+
+### Content 
+
+For validation in HTML https://validator.w3.org/
+
+For validation in CSS https://jigsaw.w3.org/css-validator/
+
+Wireframes produced using [Balsamiq](https://balsamiq.com/)
+
+
