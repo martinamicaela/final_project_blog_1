@@ -168,12 +168,20 @@ You can view the wireframes [here](./ReadmeFiles/Wireframes/CampusCampfire.pdf)
 
 ### Database
 
-We tried to plan out our models before had to avoid having to do migrations mid-project. we tried to work out the field types, one-to-many, PK or FK etc. 
+I tried to plan out the models before hand to avoid having to do migrations mid-project. I tried to work out the field types, one-to-many, PK or FK etc. 
 
-Here is an image of our ERD:
 <div align="center">
-  <img src="./ReadmeFiles/ReadmeImages/ERD.png">
+  <img src="readmephotos/database.png"alt="Image showing the relational database">
 </div>
+
+### Models 
+<div align="center">
+  <img src="readmephotos/postmodel.png" alt="Image showing the style and post model">
+</div>
+<div align="center">
+  <img src="readmephotos/reviewmodel.png" alt="Image showing the review and purchase model">
+</div>
+
 
 ## User Stories, features and bugs
 
@@ -279,7 +287,6 @@ Here is an image of our ERD:
 <table>
   <tr>
     <th>Bug/Issue</th>
-    <th>Image</th>
     <th>Resolution</th>
   </tr>
   <tr>
@@ -310,6 +317,8 @@ For HTML validation https://validator.w3.org/
 
 For CSS validation  https://jigsaw.w3.org/css-validator/
 
+For Light house validation  https://developer.chrome.com/docs/lighthouse/overview/ 
+<img src="readmephotos/lighthousereport.png" alt="Image showing report">
 
 
 ## Deployment
