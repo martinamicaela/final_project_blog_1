@@ -1,5 +1,7 @@
 <h1>Decor Statement</h1>
 
+<img src="readmephotos/landingpage.png" alt="home page landing page first time">
+
 <h2>Introduction</h2>
 
 This is a full-stack framework project built using Django, Python, HTML and CSS. My goal is to create a functioning and responsive website, that allows the admin user to post, and users can create an account and leave a review on the existing posts.
@@ -24,7 +26,9 @@ This website intends to inspire and give fresh ideas to users. It also wants to 
 
 
 
-
+## Admin credentials
+- admin: admin1 ,  password: decortest1simple
+- normal user: Emily, emily@email.com  password: 1passtest 
 
 ## Landing page for first time users
 
@@ -157,7 +161,7 @@ A registration page built using the default django user registration form, with 
 A simple frictionless login page so users can log in quickly, it will feedback to the user if there are errors.
 
 <div align="center">
-  <img src="readmephotos/logindecor.png"alt="login page">
+  <img src="readmephotos/signinphoto.png"alt="login page">
 </div>
 
 ## Design Choices
