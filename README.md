@@ -517,6 +517,7 @@ Site successfully deployed on [heroku](https://blogdecor1-242e1f9b3655.herokuapp
 
 ## Media 
 All images were taken from [Pixabay](https://pixabay.com/)
+All the post content [ChatGPT](https://chat.openai.com)  
 
 ### Content 
 
@@ -525,6 +526,7 @@ For validation in HTML https://validator.w3.org/
 For validation in CSS https://jigsaw.w3.org/css-validator/
 
 Wireframes produced using [Balsamiq](https://balsamiq.com/)
+
 
 ### Acknowledgements
 
