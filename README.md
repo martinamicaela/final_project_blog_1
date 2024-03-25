@@ -407,7 +407,47 @@ I tried to plan out the models before hand to avoid having to do migrations mid-
 
   </tr>
 
+  <tr>
+  <td> Review Edit Button </td>
+  <td><img src="readmephotos/testingeditbtn.png" alt="Review Edit Button"></td>
+  <td>None detected.</td>
 
+  </tr>
+
+  <tr>
+  <td> Admin Panel </td>
+  <td><img src="readmephotos/adminpanel.png" alt="Admin panel"></td>
+  <td>None detected.</td>
+
+  </tr>
+
+  <tr>
+  <td> Review pending Admin Panel </td>
+  <td><img src="readmephotos/testingreviewadmin.png" alt="Review pending Admin Panel"></td>
+  <td>None detected.</td>
+
+  </tr>
+  
+  <tr>
+  <td> Review Editing and summernote Admin Panel </td>
+  <td><img src="readmephotos/testingapprovedreviewadmin.png" alt="Review Editing and summernote Admin Panel"></td>
+  <td>None detected.</td>
+
+  </tr>
+
+  <tr>
+  <td> Review approved message Admin Panel </td>
+  <td><img src="readmephotos/testingapprovedreviewadminmessage.png" alt="Review approved message Admin Panel"></td>
+  <td>None detected.</td>
+
+  </tr>
+
+  <tr>
+  <td> Approved review delete button and modal </td>
+  <td><img src="readmephotos/testingdeletebtn.png" alt="Approved review delete button and modal"></td>
+  <td>None detected.</td>
+
+  </tr>
 
 
 </table>
