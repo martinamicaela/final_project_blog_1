@@ -6,7 +6,7 @@ This is a full-stack framework project built using Django, Python, HTML and CSS.
 
 ## User Experience Design
 
- target audience:
+Target audience:
 
 Young and middle age adults, mostly couples and women, who are planning on buying a house or renovating their homes. 
 
@@ -28,73 +28,67 @@ This website intends to inspire and give fresh ideas to users. It also wants to 
 
 ## Landing page for first time users
 
-The landing page allows users to see a display with all the upcommimg events ordered in chronologically way, being the closest one, the first appearing on the top of the page.
+The landing page allows users to see a display with all the posts ordered in chronologically way, being the closest one, the first appearing on the top of the page.
 
-Besides, right at the top the users can see the logo of the page in bright blue with a navbar under it that contains the main sections of the site: Home, Register and Login. Alonside with the navbar, on the opposte side of the page the user can find the footer with the names of the developers who worked together on this project. 
+Besides, right at the top the users can see the logo of the page with a sophisticated design, with a navbar  next to it, that contains the main sections of the site: Home, Register and Login. Alonside with the navbar, on the opposte side of the page the user can find the footer with the links to social media platforms and the name of the developer who worked on this project. 
 
 <strong>Landing page for first time users</strong>
 
-addd 
 
-<img src="imge urls goes here" alt="home page landing page first time">
+<img src="readmephotos/landingpage.png" alt="home page landing page first time">
 
 <strong>Home page across multiple devices</strong>
 
 
-<img src="image url goes here" alt="Options page across different devices">
+<img src="readmephotos/responsiveiphone.png" alt="Options page across different devices:phone">
+
+<img src="readmephotos/responsiveipad.png" alt="Options page across different devices:tablet">
+
+<img src="readmephotos/responsivecomputer.png" alt="Options page across different devices:computer">
 
 <br>
 
 ## Home page (Site Logo)
 
-The first element that the user sees when visiting site, is the logo: Campfire Campus in big, bright blue font. 
+The first element that the user sees when visiting site, is the logo: Decor Statement in deep, dark purple underlined font. 
 
 - User experience in the Logo section: 
 
   - The selection of size, colour and type of font, 
  helps the user to identify quickly the name of the site.
 
-  - The name of the site "Campfire Campus" indicates clearly that this is a website related with the academic world. In addition, the name indicates that it is a place for socialising and students are welcomed. 
+  - The name of the site "Decor Statement" indicates clearly that this is a website related with home decor. In addition, the name statement indicates that this web intends to highlight or propose different decor styles. 
   
-  - Thanks to the Logo the user would feel comfortable and with a positive attitude even before checking the rest of the page. 
+  - Thanks to the Logo the user would feel captivated with  positive attitude even before checking the rest of the page. 
 
  <strong>Home page Logo section</strong>
 
-<img src="./ReadmeFiles/ReadmeImages/logo.png" alt="Home page Logo section">  
+<img src="readmephotos/logodecor.png" alt="Home page Logo section">  
 
 
 
-## Home page (Events) 
+## Home page (Posts) 
 
-The Home page focuses mainly on the display of the events, as we mentioned before the events appeared ordered in time. Each event is enclosed in a black square to differentiate it from the rest of events. The main features that can be highlighted are:
+The Home page focuses mainly on the display of the posts, as we mentioned before the posts appeared ordered in time. The main features that can be highlighted are:
 
-- The name of the event is as well a clickable button for the user. 
+-The first element is a photo with the name of the author under it, just before the title of the post.
 
-- Under the event name, the user can see the location, the date, and the creator of the event each one with a descriptive icon.  
+- The name of the post is as well a clickable button for the user. 
 
-- On the top right corner, the user can see the number of available spots and the number of participants attending with icon next to it. 
-
-- Finally, on the bottom right corner there is a clickable button for those students who want to register.
+- Under the post name, the user can read an excerpt and 
+ see the date of publication.  
 
 - User experience in the events section: 
 
   - The selection of size, colour and type of font, 
- helps the user to identify quickly the name of the event and the button for registering.
- 
-  - The icons give important visual information about the event (location, date, author, number of participants) and help the user to navigate through the information provided.
+ helps the user to identify quickly the name of the post and differentiate it from the excerpt.
 
-  -The colour animation on the attending icon gives 
-  
-   - The clickable button is easy  to identify, as it stands alone on the right corner, besides it gives straight and intuitive access to the new user who wants to register for an upcoming event.
-
-<strong>Home page Events section</strong>
-
-<img src="imge urls goes here" alt="Home page Events section">
+<img src="readmephotos/responsivecomputer.png" alt="Options page across different devices:computer">
 
 
 ## Home page (Navbar and foooter) 
 
-Apart from the events, section the Home page also provides the user with a useful navbar and a informative footer. The navbar is divided into three main areas of interest; Home, Register and Login and the footer proportionate information of interest about the developers that collaborated on this project. The main features that can be highlithed are:
+Apart from the events, section the Home page also provides the user with a useful navbar and a informative footer. The navbar is divided into three main areas of interest; Home, Register and Login and the footer proportionate information of interest about the developer that worked on this project. The main features that can be highlithed are:
 
 - The clickable sections in both, the navbar and the footer 
 
@@ -109,17 +103,42 @@ Apart from the events, section the Home page also provides the user with a usefu
 
   - The colour transition animation in the navbar and the footer, as well as the change in the cursor icon, both give clear indications about the clickable property of the elements in these sections. Besides, they produce an eye-catching effect on the user when these elements are hoovered over, creating the need for clicking and a sense of mystery.
 
-  - The Git hub cat icon in the footer,  gives important visual information about the names, as it makes explicit their contribution as developers in the project. 
+  - The Git hub cat icon in the footer,  gives important visual information about, social media links and the developer. 
   
 
-<strong>Home page Events section</strong>
-
-<img src="./ReadmeFiles/ReadmeImages/navbar.png" alt="Home page Navbar section">
+<img src="readmephotos/navbardecor.png" alt="Home page Navbar section">
 
 <br>
 
-<img src="./ReadmeFiles/ReadmeImages/footer.png" alt="Home page Footer section">
+<img src="readmephotos/footerdecor.png" alt="Home page Footer section">
 
+## Posts page (Posts) 
+The Posts page focuses mainly on the display of a single post. The main features that can be highlighted are:
+
+-The first element is a photo with the title of the post next to it.
+
+- The content of the post. 
+
+- Under the post there is a section in which the user can check the product its price and the store that sells the product through a clickable button.
+
+- Right after the user can see the section review with its ratings.  If the user is logged in there is also a form on the other side of the page so a review can be created if desired. 
+
+- User experience in the events section: 
+
+  - The selection of size, colour and type of font, 
+ helps the user to identify quickly the name of the post and differentiate it from the content.
+
+  - The user can see the hyperlink in blue which links to the item proposed by the post, so that the user does not need to look for it online. 
+
+   - Once the form is filled out the user can see a modal of success or a notification with a error, a user can also checked if the state of the review as if appears on a faded colour and with a messaged if it has not been approved yet. As well te user can update and delete reviews. 
+  
+<div align="center">
+  <img src="readmephotos/postpagecontent.png"alt="post page content">
+</div>
+
+<div align="center">
+  <img src="readmephotos/postpageform.png"alt="post page review">
+</div>
 
 
 
@@ -127,43 +146,66 @@ Apart from the events, section the Home page also provides the user with a usefu
 
 ### Registration
 
-We have a registration page built using the default django user registration form, we have a custom view to display messages back to the user to feedback when the form is incorrect but as the default view isn't very customizable it displays mid-form. A fully bespoke solution would be needed next project
+A registration page built using the default django user registration form, with a custom view to display feedback messages back to the user  when the form is incorrect.
 
 <div align="center">
-  <img src="./ReadmeFiles/ReadmeImages/registration.png">
+  <img src="readmephotos/decorregister.png"alt="register page">
 </div>
 
 ### login
 
-We have a simple frictionless login page so users can log in quickly, it will feedback to the user if there are errors. a future feature would be password recovery via email
+A simple frictionless login page so users can log in quickly, it will feedback to the user if there are errors.
 
 <div align="center">
-  <img src="./ReadmeFiles/ReadmeImages/login.png">
+  <img src="readmephotos/logindecor.png"alt="login page">
 </div>
 
 ## Design Choices
 
 ### Fonts 
 
-IntroRust was chosen as a more interesting font that would give character to the page. It was sourced from [here](https://www.fontspring.com/fonts/fontfabric/intro-rust-free?utm_source=fontsquirrel.com&utm_medium=download_link&utm_campaign=intro-rust#firstfreeproduct)
+Grey Qo was chosen as a more interesting font that would give character to the page. It was sourced from [here](https://fonts.google.com/share?selection.family=Grey+Qo|Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400|Nixie+One)
 
-We selected the font style Poppins 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'. It's is sans serif, so very clear and easy to read. it's popularity on the web gives it instant recognition as well'
+I selected the font style Nixie One for the titles and Times New Roman for the content of the posts. Times New Roman is a popular font widely used in the world of press, it is clear and elegant.
 
 
-We selected more plain and simple design with professional colours but a big, vibrant pop of pink as an accent. We derived our colours from [coolors](https://coolors.co/012765-d30cd5-003fa5-010100-f8fff4)
+### Colours
+
+I selected sophisticated and elegant design with a delicate an atemporal palette.This palette has accent tones such as dark purple or slate blue but also brings harmony with french grey and linen.
+ [coolors](https://coolors.co/242038-725ac1-8d86c9-cac4ce-f7ece1)
 
 <div align="center">
-  <img src="./ReadmeFiles/ReadmeImages/coolors.png">
+  <img src="readmephotos/colorpalette.png"alt="colour palette">
 </div>
+
 
 ### Wire Frames
 
-<strong>The wireframes were constructed using Balsamiq in a group call to get feedback on all design choices. This was so front-end and back-end could be aligned even from the early stages to think of any pitfalls that could occur<br></strong>
+The wireframes were constructed using Balsamiq.
 
-You can view the wireframes [here](./ReadmeFiles/Wireframes/CampusCampfire.pdf)
-
+- Home
 <div align="center">
-  <img src="./ReadmeFiles/ReadmeImages/wireframe.png">
+  <img src="readmephotos/homewireframes.png"alt="home wireframe">
+</div>
+
+ - Post Page
+<div align="center">
+  <img src="readmephotos/wireframespost.png"alt="post wireframe">
+</div>
+
+- Register Page
+<div align="center">
+  <img src="readmephotos/wireframeregister.png"alt="register wireframe">
+</div>
+
+- Login Page
+<div align="center">
+  <img src="readmephotos/wireframelogin.png"alt="login wireframe">
+</div>
+
+ - Logout  Page
+<div align="center">
+  <img src="readmephotos/singoutwireframe.png"alt="logout wireframe">
 </div>
 
 ### Database
@@ -336,6 +378,11 @@ Site successfully deployed on [heroku](https://blogdecor1-242e1f9b3655.herokuapp
 [Code Institute](https://codeinstitute.net/ie/) - 'I think therefore I blog' project helped me with recipe details page and pagination
 
 [Django documentation](https://docs.djangoproject.com/en/4.0/topics/pagination/) - also helped me with pagination and other problems
+
+## Languages 
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [Python](https://www.python.org/)
 
 
 ## Media 
