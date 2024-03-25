@@ -328,6 +328,92 @@ I tried to plan out the models before hand to avoid having to do migrations mid-
 <br>
 
 
+
+<table>
+  <tr>
+    <th>Features</th>
+    <th>Image</th>
+    <th>Bugs / Issues - tested across viewports of all devices using Google Dev Tools</th>
+  </tr>
+   <tr>
+    <td> Next/previous Button</td>
+    <td><img src="readmephotos/nextbtn.png" alt="previous button"></td>
+    <td>None detected.</td>
+
+  </tr>
+
+  <tr>
+    <td> Footer links</td>
+    <td><img src="readmephotos/footerlinks.png" alt="footer links"></td>
+    <td>None detected.</td>
+
+  </tr>
+
+  <tr>
+  <td> Navbar links</td>
+  <td><img src="readmephotos/testingnavbarlink.png" alt="navbar links"></td>
+  <td>None detected.</td>
+
+  </tr>
+
+  <tr>
+  <td> Purchase model link</td>
+  <td><img src="readmephotos/testingpurchasemodellink.png" alt="Purchase model link"></td>
+  <td>None detected.</td>
+
+  </tr>
+
+  <tr>
+  <td> Register Form</td>
+  <td><img src="readmephotos/decorregister.png" alt="Register Form"></td>
+  <td>None detected.</td>
+
+  </tr>
+
+  <tr>
+  <td> Login form </td>
+  <td><img src="readmephotos/testinglogin.png" alt="Login Form"></td>
+  <td>None detected.</td>
+
+  </tr>
+
+  </tr>
+
+  <tr>
+  <td> Login Modal </td>
+  <td><img src="readmephotos/testingmodallogin.png" alt="Login Modal"></td>
+  <td>None detected.</td>
+
+  </tr>
+
+  <tr>
+  <td> Logout link </td>
+  <td><img src="readmephotos/testingsingup.png" alt="Logout link"></td>
+  <td>None detected.</td>
+
+  </tr>
+
+  <tr>
+  <td> Review form </td>
+  <td><img src="readmephotos/testingformreview.png" alt="Review Form"></td>
+  <td>None detected.</td>
+
+  </tr>
+
+  <tr>
+  <td> Review form pending acceptance </td>
+  <td><img src="readmephotos/postpageform.png" alt="Review Form pending acceptance"></td>
+  <td>None detected.</td>
+
+  </tr>
+
+
+
+
+</table>
+
+<br>
+
 ## Fixed Bugs / Issues
 <br>
 <table>
