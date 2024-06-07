@@ -8,6 +8,58 @@ This is a full-stack framework project built using Django, Python, HTML and CSS.
 
 Site successfully deployed on [heroku](https://blogdecor1-242e1f9b3655.herokuapp.com/)
 
+
+# Index
+
+1. [User Experience Design](#user-experience-design)
+
+2. [Admin credentials](#admin-credentials)
+
+3. [Landing page for first time users](#landing-page-for-first-time-users)
+  
+    - [Home page (Site Logo)](#home-page-site-logo)
+    - [Home page (Posts)](#home-page-posts)
+    - [Home page (Navbar and foooter)](#home-page-navbar-and-foooter)
+    - [Posts page (Posts)](#posts-page-posts)
+
+4. [Authentication](#authentication)
+   - [Registration](#registration)
+   - [login](#login)
+   - [Home page (Site Logo)](#home-page-site-logo)
+
+5. [Design Choices](#design-choices)
+
+   - [Fonts](#fonts)
+   - [Colours](#colours)
+   - [Wire Frames](#wire-frames)
+  
+6. [Database](#database)
+
+7. [Models](#models)
+
+8. [User Stories, features and bugs](#user-stories-features-and-bugs)
+
+9. [Fixed Bugs / Issues](#fixed-bugs--issues)
+
+10. [Unfixed Bugs / Issues](#unfixed-bugs--issues)
+
+11. [Validator Testing](#validator-testing)
+
+12. [Project Deployment Guide](#project-deployment-guide)
+
+     - [Deploying Your Site](#deploying-your-site)
+     - [Cloning the Repository](#cloning-the-repository)
+     - [Django and Heroku](#django-and-heroku)
+
+13. [Credits](#credits)
+
+14. [Languages](#languages)
+
+15. [Media](#media)
+
+16. [Acknowledgements](#acknowledgements)
+
+
 ## User Experience Design
 
 Target audience:
