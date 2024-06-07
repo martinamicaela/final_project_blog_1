@@ -557,22 +557,6 @@ I followed the Code Institute's Coding Coach instructional video to install and 
 
 I used the Code Institute's LMS blog and cheatsheet for additional guidance.
 
-## How to Clone the Repository
-
-### Go to the GitHub Repository
-
-1. Visit the GitHub repository on GitHub.
-2. Click the "Code" button to the right of the screen, click HTTPs and copy the link there.
-3. Open a GitBash terminal and navigate to the directory where you want to locate the clone.
-4. On the command line, type `git clone`, then paste in the copied URL, and press the Enter key to begin the clone process.
-
-## Django and Heroku
-
-I followed the Code Institute's Coding Coach instructional video to install and set up the Django framework.
-
-I followed the Code Institute's LMS blog and cheatsheet provided.
-
-
 ## Credits 
 
 [Coolors](https://coolors.co/012765-d30cd5-003fa5-010100-f8fff4) was used for colour pallette
