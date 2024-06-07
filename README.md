@@ -6,6 +6,8 @@
 
 This is a full-stack framework project built using Django, Python, HTML and CSS. My goal is to create a functioning and responsive website, that allows the admin user to post, and users can create an account and leave a review on the existing posts.
 
+Site successfully deployed on [heroku](https://blogdecor1-242e1f9b3655.herokuapp.com/)
+
 ## User Experience Design
 
 Target audience:
@@ -493,9 +495,69 @@ For Light house validation  https://developer.chrome.com/docs/lighthouse/overvie
 <img src="readmephotos/lighthousereport.png" alt="Image showing report">
 
 
-## Deployment
+# Deployment
 
-Site successfully deployed on [heroku](https://blogdecor1-242e1f9b3655.herokuapp.com/)
+## How to Deploy This Site
+
+Here are the basic steps for deploying a project from Gitpod to Heroku and linking it to GitHub using manual deployment:
+
+### Prepare Your Project
+
+Ensure your project is ready for deployment and is working as expected locally. Make sure your project includes a `requirements.txt` file listing all the dependencies and a `Procfile` to specify the command to start the web server.
+
+### Create a GitHub Repository
+
+If you haven't already, create a GitHub repository for your project. Push your project code to this GitHub repository.
+
+### Set Up Heroku Account
+
+Sign up for a Heroku account. Install the Heroku CLI (Command Line Interface) on your local machine.
+
+### Create a New App on Heroku
+
+Log in to your Heroku account via the terminal using the Heroku CLI. Create a new app on Heroku using the `heroku create` command.
+
+### Link Heroku App to GitHub Repository
+
+Go to the "Deploy" tab of your Heroku app dashboard. Under "Deployment method," select GitHub as the deployment method. Search for your GitHub repository and connect it to your Heroku app.
+
+### Enable Manual Deployment
+
+Disable automatic deploys to ensure that changes pushed to your GitHub repository do not trigger automatic deployments on Heroku. You can do this by clicking on the "Enable Automatic Deploys" button and then turning off the "Wait for CI to pass before deploy" option.
+
+### Deploy Your App
+
+Manually deploy your app by clicking the "Deploy Branch" button in the "Manual deploy" section. Choose the branch you want to deploy from (e.g., `main` or `master`).
+
+### Wait for Deployment
+
+Wait for the deployment to finish, and check the logs for any errors.
+
+### Test Your Deployed App
+
+Once the deployment is complete, open your app using the provided Heroku URL and test that it works as expected. By following these steps, you can manually deploy your project from Gitpod to Heroku and link it to GitHub for version control.
+
+After the master branch has been selected, the page will automatically refresh with a detailed ribbon display to indicate a successful deployment.
+
+Changes pushed to the master branch will take effect on the live project.
+
+You can find the live link at [https://blogdecor1-242e1f9b3655.herokuapp.com/](https://blogdecor1-242e1f9b3655.herokuapp.com/).
+
+## How to Clone the Repository
+
+### Go to the GitHub Repository
+
+1. Visit the GitHub repository on GitHub.
+2. Click the "Code" button to the right of the screen, click HTTPs and copy the link there.
+3. Open a GitBash terminal and navigate to the directory where you want to locate the clone.
+4. On the command line, type `git clone`, then paste in the copied URL, and press the Enter key to begin the clone process.
+
+## Django and Heroku
+
+I followed the Code Institute's Coding Coach instructional video to install and set up the Django framework.
+
+I followed the Code Institute's LMS blog and cheatsheet provided.
+
 
 ## Credits 
 
